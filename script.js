@@ -17,7 +17,10 @@ const sendData = (username, sRate, count) => {
     if (sRate === count) {
         alert("Register SuccessFull", username); // Showing alert
         swal("Welcome " + username, "Registration Successfull", "success") // Showing sweet alert
-        location.href = `submit.html?username=${username}` // Redirecting to demo.html with username query parameter
+        setTimeout(() => {
+            location.href = `submit.html?username=${username}` // Redirecting to demo.html with username query parameter
+
+        }, 12000);
     }
 }
 
