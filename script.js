@@ -20,7 +20,7 @@ const sendData = (username, sRate, count) => {
         setTimeout(() => {
             location.href = `submit.html?username=${username}` // Redirecting to demo.html with username query parameter
 
-        }, 12000);
+        }, 5000);
     }
 }
 
