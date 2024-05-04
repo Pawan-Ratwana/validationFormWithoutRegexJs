@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Validation form</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Registration Form</h2>
+        </div>
+        <form action="" class="form" id="form">
+            <!-- username form-control -->
+            <div class="form-control">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Enter your full name" autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+
+            <!-- email form-control -->
+            <div class="form-control">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+
+            <!-- phone number form-control -->
+            <div class="form-control">
+                <label for="phonenumber">Phone Number</label>
+                <input type="number" name="phonenumber" id="phonenumber" placeholder="Enter Your Phone Number"
+                    autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+
+            <!-- password form-control -->
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter Password" id="password" autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+
+            <!-- Confirm Password form-control -->
+            <div class="form-control">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" name="cpassword" placeholder="Enter Confirm Password" id="cpassword"
+                    autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+
+            <!-- submit button -->
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
